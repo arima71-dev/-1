@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 150px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.header .logo {
+    max-width: 100px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.menu {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.container {
+    display: block;
+    overflow: hidden;
+}
+
+.content {
+    float: left;
+    width: calc(100% - 220px);
+    min-height: 400px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.sidebar {
+    float: right;
+    width: 200px; /* 20% ширины */
+    min-height: 300px;
+    background-color: #e7e7e7;
+    padding: 20px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    clear: both; /* очищаем поток после флоатов */
+}
+
+.profile-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-form label {
+    margin-top: 10px;
+}
